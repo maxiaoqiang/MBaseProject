@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		260B781C1FEB852000C60041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B781B1FEB852000C60041 /* main.m */; };
 		260B781F1FEB852000C60041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B781E1FEB852000C60041 /* AppDelegate.m */; };
-		260B78221FEB852000C60041 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B78211FEB852000C60041 /* ViewController.m */; };
-		260B78251FEB852000C60041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260B78231FEB852000C60041 /* Main.storyboard */; };
 		260B78271FEB852000C60041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 260B78261FEB852000C60041 /* Assets.xcassets */; };
-		260B782A1FEB852000C60041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260B78281FEB852000C60041 /* LaunchScreen.storyboard */; };
+		260B783C1FEB963F00C60041 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B783B1FEB963F00C60041 /* HomeViewController.m */; };
+		260B78401FEB982300C60041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260B783F1FEB982300C60041 /* LaunchScreen.storyboard */; };
+		260B78431FEB99FF00C60041 /* HomeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B78421FEB99FF00C60041 /* HomeLabel.m */; };
+		260B78471FEB9CB100C60041 /* MConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B78461FEB9CB100C60041 /* MConst.m */; };
+		260B784B1FEBA34000C60041 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B784A1FEBA34000C60041 /* TestViewController.m */; };
 		58924577B993BF2A65EE62C4 /* libPods-MBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6103E3609C1CDBF8C9BCC5E8 /* libPods-MBaseProject.a */; };
 /* End PBXBuildFile section */
 
@@ -22,12 +24,18 @@
 		260B781B1FEB852000C60041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		260B781D1FEB852000C60041 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		260B781E1FEB852000C60041 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		260B78201FEB852000C60041 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		260B78211FEB852000C60041 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		260B78241FEB852000C60041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		260B78261FEB852000C60041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		260B78291FEB852000C60041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		260B782B1FEB852000C60041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		260B783A1FEB963F00C60041 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		260B783B1FEB963F00C60041 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		260B783F1FEB982300C60041 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		260B78411FEB99FF00C60041 /* HomeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeLabel.h; sourceTree = "<group>"; };
+		260B78421FEB99FF00C60041 /* HomeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeLabel.m; sourceTree = "<group>"; };
+		260B78451FEB9CB100C60041 /* MConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MConst.h; sourceTree = "<group>"; };
+		260B78461FEB9CB100C60041 /* MConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MConst.m; sourceTree = "<group>"; };
+		260B78481FEBA17300C60041 /* MHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHeader.h; sourceTree = "<group>"; };
+		260B78491FEBA34000C60041 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		260B784A1FEBA34000C60041 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		4B6A78CFE1067F9B8C9EA968 /* Pods-MBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBaseProject/Pods-MBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		6103E3609C1CDBF8C9BCC5E8 /* libPods-MBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,15 +73,15 @@
 		260B78191FEB852000C60041 /* MBaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				260B78441FEB9C7400C60041 /* Global */,
+				260B78311FEB959A00C60041 /* Other */,
+				260B78321FEB959A00C60041 /* Section */,
 				260B781D1FEB852000C60041 /* AppDelegate.h */,
 				260B781E1FEB852000C60041 /* AppDelegate.m */,
-				260B78201FEB852000C60041 /* ViewController.h */,
-				260B78211FEB852000C60041 /* ViewController.m */,
-				260B78231FEB852000C60041 /* Main.storyboard */,
 				260B78261FEB852000C60041 /* Assets.xcassets */,
-				260B78281FEB852000C60041 /* LaunchScreen.storyboard */,
 				260B782B1FEB852000C60041 /* Info.plist */,
 				260B781A1FEB852000C60041 /* Supporting Files */,
+				260B783F1FEB982300C60041 /* LaunchScreen.storyboard */,
 			);
 			path = MBaseProject;
 			sourceTree = "<group>";
@@ -84,6 +92,68 @@
 				260B781B1FEB852000C60041 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		260B78311FEB959A00C60041 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		260B78321FEB959A00C60041 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				260B78361FEB962300C60041 /* Home(首页) */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		260B78361FEB962300C60041 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				260B78371FEB962300C60041 /* Controller */,
+				260B78381FEB962300C60041 /* Model */,
+				260B78391FEB962300C60041 /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		260B78371FEB962300C60041 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				260B783A1FEB963F00C60041 /* HomeViewController.h */,
+				260B783B1FEB963F00C60041 /* HomeViewController.m */,
+				260B78491FEBA34000C60041 /* TestViewController.h */,
+				260B784A1FEBA34000C60041 /* TestViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		260B78381FEB962300C60041 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		260B78391FEB962300C60041 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				260B78411FEB99FF00C60041 /* HomeLabel.h */,
+				260B78421FEB99FF00C60041 /* HomeLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		260B78441FEB9C7400C60041 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				260B78451FEB9CB100C60041 /* MConst.h */,
+				260B78461FEB9CB100C60041 /* MConst.m */,
+				260B78481FEBA17300C60041 /* MHeader.h */,
+			);
+			path = Global;
 			sourceTree = "<group>";
 		};
 		56A8DD7AA63712A6C9F7B46F /* Pods */ = {
@@ -165,9 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				260B782A1FEB852000C60041 /* LaunchScreen.storyboard in Resources */,
 				260B78271FEB852000C60041 /* Assets.xcassets in Resources */,
-				260B78251FEB852000C60041 /* Main.storyboard in Resources */,
+				260B78401FEB982300C60041 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,32 +295,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				260B78221FEB852000C60041 /* ViewController.m in Sources */,
+				260B784B1FEBA34000C60041 /* TestViewController.m in Sources */,
 				260B781F1FEB852000C60041 /* AppDelegate.m in Sources */,
 				260B781C1FEB852000C60041 /* main.m in Sources */,
+				260B783C1FEB963F00C60041 /* HomeViewController.m in Sources */,
+				260B78431FEB99FF00C60041 /* HomeLabel.m in Sources */,
+				260B78471FEB9CB100C60041 /* MConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		260B78231FEB852000C60041 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				260B78241FEB852000C60041 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		260B78281FEB852000C60041 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				260B78291FEB852000C60041 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		260B782C1FEB852000C60041 /* Debug */ = {
@@ -389,6 +442,7 @@
 				260B78301FEB852000C60041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
