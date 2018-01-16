@@ -55,6 +55,7 @@
 		260B780E1FEB851F00C60041 = {
 			isa = PBXGroup;
 			children = (
+				260B78361FEB962300C60041 /* Home(首页) */,
 				260B78191FEB852000C60041 /* MBaseProject */,
 				260B78181FEB852000C60041 /* Products */,
 				56A8DD7AA63712A6C9F7B46F /* Pods */,
@@ -104,7 +105,6 @@
 		260B78321FEB959A00C60041 /* Section */ = {
 			isa = PBXGroup;
 			children = (
-				260B78361FEB962300C60041 /* Home(首页) */,
 			);
 			path = Section;
 			sourceTree = "<group>";
@@ -116,7 +116,8 @@
 				260B78381FEB962300C60041 /* Model */,
 				260B78391FEB962300C60041 /* View */,
 			);
-			path = "Home(首页)";
+			name = "Home(首页)";
+			path = "MBaseProject/Section/Home(首页)";
 			sourceTree = "<group>";
 		};
 		260B78371FEB962300C60041 /* Controller */ = {
